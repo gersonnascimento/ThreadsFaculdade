@@ -22,19 +22,12 @@ class Person
   end
 
   def change_side
-
     if @side=='left'
       @side='right'
     else
       @side='left'
     end
-
   end
-  #
-  # def verify_side other_person
-  #   self.change_side if other_person.side == self.side
-  # end
-
 end
 
 def pass(p1, p2)
