@@ -1,4 +1,4 @@
-puts 'olá'
+puts 'Iniciando'
 $cd_resource = 1
 $pen_drive_resource = 1
 

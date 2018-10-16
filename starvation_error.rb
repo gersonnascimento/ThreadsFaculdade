@@ -41,7 +41,7 @@ end
 
 assync = Thread.new{
   while true
-    sleep(4)
+    sleep(1)
     $messages = order $messages
     show_queue
     send_message $messages.first
